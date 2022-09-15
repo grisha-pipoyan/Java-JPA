@@ -20,7 +20,7 @@ public class Article implements Auditable{
     @GeneratedValue
     private Long id;
 
-    private String content;
+
 
     @ManyToOne(cascade = CascadeType.MERGE)
     private Publisher publisher;
